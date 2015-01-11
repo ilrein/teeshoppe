@@ -13,6 +13,7 @@ gem 'meta_request'
 gem 'quiet_assets'
 gem 'awesome_print'
 gem 'semantic-ui-sass'
+gem 'figaro'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -41,8 +42,8 @@ gem 'spring',        group: :development
 # gem 'unicorn'
 
 # Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
-
+gem 'capistrano-rails', group: :development
+gem 'capistrano-rvm'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
